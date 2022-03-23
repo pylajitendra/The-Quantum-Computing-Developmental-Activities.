@@ -69,14 +69,7 @@ System information
 **Json**
 
 // This configuration file sets options for spell-checking pull requests
-	// onto this repository. Please see
-	//     https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell#cspelljson
-	// for more documentation about this config file.
-	{
-	    // Use a file-matching pattern to identify Q# source files when running
-	    // in CI (that is, when VS Code doesn't provide the language ID for
-	    // Q#).
-	    "overrides": [
+	
 	        {
 	            "languageId": "qsharp",
 	            "filename": "**/*.qs"
